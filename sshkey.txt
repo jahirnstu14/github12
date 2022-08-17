@@ -1,0 +1,23 @@
+ssh-keygen -t ed25519 -C "jahirkhan.ice.nstu.student14@gmail.com"
+
+ eval "$(ssh-agent -s)"
+
+
+ssh-add ~/.ssh/id_ed25519
+
+clip < ~/.ssh/id_ed25519.pub
+
+
+
+if this problem show: 
+
+error: failed to push some refs to 'github.com:jahirnstu14/github1st.git'
+
+solution:
+git reset --mixed origin/master
+git add .
+git commit -m "This is a new commit for what I originally planned to be an amendmend"
+git push origin master
+
+ssh password:
+4321

@@ -1,0 +1,31 @@
+               git add staging files              git commit                    git push
+1.work directory------------------>>>> staging area------------->local repository------------------>>global repository or git hub
+                            git fecth
+ 2.local repository<<<<<<<-----------global repository or git hub
+                         git clone(only same copy) /git pull(copy with change)
+             3.work directory  <<<<<<<-----------global repository or git hub 
+                  git diff(difference betwn work and stage files) 
+ 4.work directory      ------------------>>>>                      staging area   
+                 git diff head(difference betwn work and local repo)
+5. work directory------------------------------->local repository-
+                 git merge(work and local repository akkara)
+6.work directory------------------------------->local repository-
+                          git checkout(eta local thekhe remove kare work dirctory te file rakhe)           
+          7.work directory       <<<<<<<<<<<<<<<<<<<---------------------------local repository-  
+
+git command  :
+1. git init ------> for intialiazation  to git for tracking git
+2.git confiq --global user.name "name"
+3.git confiq --global user.email "email"
+email and user name for project all desult and if you use sepsrste user name and email for each project then global keyword willbe remove
+4.git confiq --list --------> to see username and email for project
+5.git status ------> use for all see all detail about project
+6. git add . -------> for staging files
+7. git commit -m "description ja change kara haichhe"
+8.git log --oneline  --------> use to see all commit file with email
+9.git checkout commit number -------->use for return commit number files or je files e fire jete habe tar commit number
+10.git checkout master -------->>>use for return first file or master file
+11. git rm file name ------->>>use for delete file but git file ti ke dore rakbe  and staging area thekhe ber habe na.
+12.git reset HEAD filename------->>>file ti delete habe and staging area thekhe ber haye jabe.
+13.git restore --staged <file>.---->>file delete karle restore karar jonno
+   
