@@ -21,3 +21,9 @@ git push origin master
 
 ssh password:
 4321
+
+
+for push into git hub:
+
+git remote add origin git@github.com:jahirnstu14/something.git
+git push -u origin main

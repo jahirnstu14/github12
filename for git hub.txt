@@ -15,8 +15,8 @@
 
 git command  :
 1. git init ------> for intialiazation  to git for tracking git
-2.git confiq --global user.name "name"
-3.git confiq --global user.email "email"
+2.git config --global user.name "name"
+3.git config --global user.email "email"
 email and user name for project all desult and if you use sepsrste user name and email for each project then global keyword willbe remove
 4.git confiq --list --------> to see username and email for project
 5.git status ------> use for all see all detail about project
